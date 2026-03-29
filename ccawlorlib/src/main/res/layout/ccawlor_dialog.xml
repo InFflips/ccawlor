@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:paddingBottom="12dp"
+         android:textColor="?attr/colorOnSurface"
+         android:id="@+id/hex_tv"
+         android:text="#006700" />
+
+    <View
+         android:layout_height="70dp"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="16dp"
+         android:background="#006700"
+         android:clipToOutline="true"
+         android:outlineProvider="background"
+         android:id="@+id/prev" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textColor="?attr/colorOnSurface"
+         android:text="Red" />
+
+    <SeekBar
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:max="255"
+         android:thumbTint="?attr/colorPrimary"
+         android:progressTint="?attr/colorPrimary"
+         android:id="@+id/red_sb" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textColor="?attr/colorOnSurface"
+         android:text="Green" />
+
+    <SeekBar
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:max="255"
+         android:thumbTint="?attr/colorPrimary"
+         android:progressTint="?attr/colorPrimary"
+         android:id="@+id/green_sb" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textColor="?attr/colorOnSurface"
+         android:text="Blue" />
+
+    <SeekBar
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:max="255"
+         android:thumbTint="?attr/colorPrimary"
+         android:progressTint="?attr/colorPrimary"
+         android:id="@+id/blue_sb" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textColor="?attr/colorOnSurface"
+         android:text="Alpha" />
+
+    <SeekBar
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:max="255"
+         android:thumbTint="?attr/colorPrimary"
+         android:progressTint="?attr/colorPrimary"
+         android:id="@+id/alpha_sb" />
+
+    <HorizontalScrollView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:scrollbars="none"
+         android:paddingTop="12dp">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:orientation="horizontal"
+             android:id="@+id/swatches_layout">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

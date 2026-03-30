@@ -5,4 +5,4 @@ It can be used in any class or activity.
 It uses the `Color.rgb(int r, int g, int b)` function to generate a color based on the values of the SeekBars.
 
 ## Demo
-![Demo preview](deprev.jpg)
+![Demo preview](demo/prev.jpg)

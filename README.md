@@ -1,5 +1,8 @@
 ## What is Ccawlor?
-> Ccawlor is a simple custom color picker in a dialog that is reusable in any class or activity.
+Ccawlor is a simple, reusable custom color picker displayed in a dialog.  
+It can be used in any class or activity.
+
+It uses the `Color.rgb(int r, int g, int b)` function to generate a color based on the values of the SeekBars.
 
 ## Demo
-![demo preview](deprev.jpg)
+![Demo preview](deprev.jpg)
